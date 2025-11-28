@@ -1,0 +1,52 @@
+name: gtm
+description: "Orange Go to Market"
+publish_to: 'none'
+
+version: 1.4.0+2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.5.0
+  toast: ^0.3.0
+  intl_phone_field: ^3.2.0
+  font_awesome_flutter: ^10.12.0
+  mime: ^2.0.0
+  image_picker: ^1.2.0
+  package_info_plus: ^9.0.0
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  latlong2: ^0.9.1
+  device_info_plus: ^12.2.0
+  geolocator: ^14.0.1
+  fl_chart: ^1.1.1
+  sqflite: ^2.4.2
+  flutter_speed_dial: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+# ✅ Configuration du package flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "images/orange.jpg"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "images/orange.jpg"
